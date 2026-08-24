@@ -1,0 +1,92 @@
+# =====================
+# Python Virtual Environments
+# =====================
+.venv/
+venv/
+env/
+ENV/
+
+# Separate OS environments
+.venv-linux/
+.venv-windows/
+
+
+# =====================
+# Python cache
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+
+# =====================
+# Data files
+# =====================
+# Raw datasets
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Large generated files
+*.parquet
+*.feather
+
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+
+# VS Code settings
+*.code-workspace
+
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+
+# =====================
+# Python build files
+# =====================
+build/
+dist/
+*.egg-info/
+
+
+# =====================
+# Logs
+# =====================
+*.log
+
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+
+
+# =====================
+# Temporary files
+# =====================
+*.tmp
+*.temp
+*.bak
+
+
+# =====================
+# SQL local files
+# =====================
+*.db
+*.sqlite
+*.sqlite3
